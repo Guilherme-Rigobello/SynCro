@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+    padding: 1.5em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.ye_color {
+    color: #ffbb33;
+    font-weight: 800;
+    
+}
+
+.item {
+    margin-right: 2em;
+    font-size: 1.1rem;
+}
+
+.item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .4s;
+}
+
+.item a:hover {
+    color: #ffbb33;
+    font-weight: 600;
+}
