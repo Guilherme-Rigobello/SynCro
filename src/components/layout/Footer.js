@@ -17,7 +17,7 @@ function Footer() {
       </ul>
       <p className={styles.copy_right}>
         {' '}
-        License <span>MIT</span> | 2024 &copy;{' '}
+         <span>MIT</span> License | &copy; 2024{' '}
       </p>
     </footer>
   );

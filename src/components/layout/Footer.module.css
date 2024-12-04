@@ -13,6 +13,7 @@
 
 .social_list li {
     margin: 0 .7em;
+    transition: .3s;
 }
 
 .social_list li:hover {
