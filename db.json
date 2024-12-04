@@ -1,5 +1,17 @@
 {
-  "projects": [],
+  "projects": [
+    {
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "budget": "5000",
+      "name": "DevOPS",
+      "cost": 0,
+      "services": [],
+      "id": 1
+    }
+  ],
   "categories": [
     {
       "id": 1,

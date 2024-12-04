@@ -1,6 +1,7 @@
 .btn {
-    background-color: #fff;
-    color: #141414;
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #7a7a7a;
     padding: .5em 1em;
     text-decoration: none;
     transition: .5s;
@@ -10,5 +11,5 @@
 }
 
 .btn:hover {
-    border-radius: 6px;
+    border-radius: 9px;
 }
