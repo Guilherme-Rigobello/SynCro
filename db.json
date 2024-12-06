@@ -1,15 +1,15 @@
 {
   "projects": [
     {
+      "name": "Atualizacao 2.0",
+      "budget": "300000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "3",
+        "name": "Design"
       },
-      "budget": "5000",
-      "name": "DevOPS",
       "cost": 0,
       "services": [],
-      "id": 1
+      "id": 2
     }
   ],
   "categories": [

@@ -1,6 +1,6 @@
 .message {
     padding: 1em;
-    border: 1px solid #5c5c5c;
+    border: 1px solid #6e6e6e;
     background-color: #141414;
     color: #ededed;
     margin: 1% .5%;
@@ -13,11 +13,10 @@
 .success {
     color: #ffbb33;
     background: #222;
-    border-color: #5c5c5c;
 }
 
 .error {
-    color: #721c24;
+    color: #e14444;
     background: #222;
-    border-color: #5c5c5c;
+   
 }

@@ -1,18 +1,19 @@
-import { useLocation } from 'react-router-dom';
-import Message from '../layout/Message';
+import { useLocation } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 
-import Loading from '../layout/Loading';
-import LinkButton from '../layout/LinkButton';
-import Container from '../layout/Container';
-import styles from './Projects.module.css';
-import ProjectCard from '../project/ProjectCard';
-import { useState, useEffect } from 'react';
+import Message from '../layout/Message'
+import Loading from '../layout/Loading'
+import LinkButton from '../layout/LinkButton'
+import Container from '../layout/Container'
+import styles from './Projects.module.css'
+import ProjectCard from '../project/ProjectCard'
+
 
 
 function Projects() {
   const [projects, setProjects] = useState([]);
   const [removeLoading, setRemoveLoading] = useState(false);
-  const [projectMessage, setProjectMessage] = useState('')
+  const [projectMessage, setProjectMessage] = useState('');
 
   const location = useLocation();
   let message = '';
@@ -35,7 +36,7 @@ function Projects() {
           setRemoveLoading(true);
         })
         .catch((err) => console.log(err));
-    }, 500);
+    }, 300);
   }, []);
 
   function removeProject(id) {
@@ -45,11 +46,12 @@ function Projects() {
         'Content-Type': 'application/json',
       },
     })
-      .then(resp => resp.json())
-      .then(data => {
+      .then((resp) => resp.json())
+      .then((data) => {
         setProjects(projects.filter((project) => project.id !== id));
-        setProjectMessage('Projeto removido com sucesso')
-      }).catch(err => console.log(err));
+        setProjectMessage('Projeto removido com sucesso!');
+      })
+      .catch((err) => console.log(err));
   }
 
   return (

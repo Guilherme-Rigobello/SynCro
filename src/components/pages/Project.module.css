@@ -1,0 +1,95 @@
+.project_details .h2 {
+  background-color: #222;
+  color: #ffbb33;
+  padding: 0.6em;
+  border-radius: 3px;
+  border: 1px solid #7a7a7a;
+}
+
+.project_details .h2_services {
+  background-color: #222;
+  color: #ffbb33;
+  padding: 0.6em;
+  margin-top: 1em;
+  border-radius: 3px;
+  border: 1px solid #7a7a7a;
+  display: inline-block;
+  max-width: max-content;
+}
+
+.project_details span {
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+.project_details p {
+  color: #c8c8c8;
+  margin: 1.2em 0 0.3em 0;
+}
+
+.details_container,
+.services_form_container {
+  border-bottom: 1px solid #7a7a7a;
+  margin: 1em 0 1em 0;
+  padding-bottom: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project_details .btn {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #7a7a7a;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 1em;
+  border-radius: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 50px;
+  margin: auto 0;
+}
+.p_false {
+  padding-bottom: 2em;
+}
+
+.project_details .btn:hover {
+  color: #ffbb33;
+}
+
+.project_info {
+  width: 100%;
+}
+
+.project_info button {
+  font-size: 15px;
+  color: #fff;
+}
+
+.project_info button:hover {
+  color: #ffbb33;
+  background-color: #222;
+}
+
+.project_details {
+  padding: 2em;
+}
+
+.project_details span {
+  font-weight: bold;
+}
+
+.details_container,
+.service_form_container {
+  border-bottom: 1px solid #7a7a7a;
+  padding-bottom: 1.2em;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form {
+  width: 100%;
+}
