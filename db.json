@@ -1,15 +1,12 @@
 {
   "projects": [
     {
-      "name": "Atualizacao 2.0",
-      "budget": "300000",
+      "name": "Exemplo 1",
+      "budget": "3200",
       "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
+        "id": "2",
+        "name": "Desenvolvimento"
+      }
     }
   ],
   "categories": [
