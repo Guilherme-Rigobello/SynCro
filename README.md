@@ -32,6 +32,11 @@ npm install
 Após, execute os seguintes comandos para executar o projeto:
 ```bash
 npm start
+```
+Abra http://localhost:3000 em seu navegador.
 
+```bash
 npm run backend
+```
+Isso irá iniciar o servidor mock do backend na URL http://localhost:5000.
 
