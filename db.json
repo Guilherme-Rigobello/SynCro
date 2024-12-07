@@ -1,12 +1,22 @@
 {
   "projects": [
     {
-      "name": "Exemplo 1",
-      "budget": "3200",
+      "name": "E-books",
+      "budget": "700.00",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
-      }
+      },
+      "cost": 70,
+      "services": [
+        {
+          "name": "Imprimir Folhas",
+          "cost": "70.00",
+          "description": "Imprimir 1000 folhas na Papelaria",
+          "id": "996584af-0b4f-47ee-94e9-b9ff934e8712"
+        }
+      ],
+      "id": 1
     }
   ],
   "categories": [
