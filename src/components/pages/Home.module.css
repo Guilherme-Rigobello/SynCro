@@ -1,10 +1,14 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
 .home_container {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4em;
 }
 
 .home_container h1 {
@@ -27,4 +31,37 @@
 .home_container img {
   width: 400px;
   margin: 2em 0;
+}
+
+@media (max-width: 756px) {
+  .home_container h1 {
+    font-size: 1.8em;
+  }
+  .home_container p {
+    font-size: 0.9em;
+    padding: .6em 0;
+  }
+  .home_container img {
+    width: 340px;
+    margin: 2em 0;
+  }
+  .home_container {
+    padding: 2em 0;
+  }
+
+  .a{
+    font-size: .9em;
+  }
+}
+
+@media(max-width:400px){
+  .home_container img{
+   width: 290px;
+  }
+  .home_container h1 {
+    font-size: 1.5em;
+  }
+  .home_container p {
+    font-size: 0.7em;
+}
 }

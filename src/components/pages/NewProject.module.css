@@ -1,11 +1,15 @@
+.section_responsive {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .newproject_container {
   width: 500px;
   margin: 0 auto;
   padding: 3em;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }
 
 .newproject_container button {
@@ -22,3 +26,8 @@
   text-align: center;
 }
 
+@media (max-width: 480px) {
+  .newproject_container {
+    width: 95vw;
+  }
+}
