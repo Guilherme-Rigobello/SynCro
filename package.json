@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Guilherme-Rigobello.github.io/syncro",
   "name": "syncro",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +20,9 @@
     "backend": "json-server --watch db.json --port 5000",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.2.0",
     "json-server": "^0.16.3"
   }
 }
