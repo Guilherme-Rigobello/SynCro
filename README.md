@@ -1,4 +1,4 @@
-# 📋 **Syncro - Gerenciador de Projetos**
+# 📋 **Syncro - Project Manager**
 
 Syncro is a web application developed in React to manage projects and their associated services. It allows you to create, edit, and delete projects, add services, and control costs in a practical and efficient way.
 
