@@ -1,12 +1,12 @@
-# **Syncro - Gerenciador de Projetos**
+# 📋 **Syncro - Gerenciador de Projetos**
 
-O **Syncro** é uma aplicação web desenvolvida em React para gerenciar projetos e seus serviços associados. Ele permite criar, editar e excluir projetos, adicionar serviços, e controlar custos de forma prática e eficiente.
+Syncro is a web application developed in React to manage projects and their associated services. It allows you to create, edit, and delete projects, add services, and control costs in a practical and efficient way.
 
 ![Syncro Preview](./src/img/home.png)
 
 ---
 
-## **🛠 Tecnologias Utilizadas**
+## **🛠 Technologies Used**
 - **Frontend:**
   - React.js
   - CSS Modules
@@ -18,25 +18,25 @@ O **Syncro** é uma aplicação web desenvolvida em React para gerenciar projeto
 ---
 
 ## **📦 Docs**
-Primeiro, clone o projeto:
+First, clone the project:
 ```bash
 git clone https://github.com/Guilherme-Rigobello/SynCro.git
 
 cd syncro
 ```
-Para instalar as dependências, utilize:
+To install the dependencies, use:
 ```bash
 npm install
 ```
 
-Após, execute os seguintes comandos para executar o projeto:
+Then, run the following commands to start the project:
 ```bash
 npm start
 ```
-Abra http://localhost:3000 em seu navegador.
+Open http://localhost:3000 in your browser.
 
 ```bash
 npm run backend
 ```
-Isso irá iniciar o servidor mock do backend na URL http://localhost:5000.
+This will start the backend mock server at the URL http://localhost:5000.
 
