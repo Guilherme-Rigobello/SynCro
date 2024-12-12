@@ -12,7 +12,7 @@ Syncro is a web application developed in React to manage projects and their asso
   - CSS Modules
   - React Router DOM
 
-- **Backend (Mockado):**
+- **Backend (Mocked):**
   - JSON Server (para simular uma API RESTful)
 
 ---
