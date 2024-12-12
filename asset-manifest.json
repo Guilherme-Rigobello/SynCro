@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/syncro/static/css/main.f9785cfa.css",
+    "main.js": "/syncro/static/js/main.c9359129.js",
+    "static/media/savings.svg": "/syncro/static/media/savings.25a5174d3c0ce57522d68f3ba58b7407.svg",
+    "static/media/loading.svg": "/syncro/static/media/loading.ad354173941532444a61d9446c97b2b7.svg",
+    "index.html": "/syncro/index.html",
+    "main.f9785cfa.css.map": "/syncro/static/css/main.f9785cfa.css.map",
+    "main.c9359129.js.map": "/syncro/static/js/main.c9359129.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9785cfa.css",
+    "static/js/main.c9359129.js"
+  ]
+}
