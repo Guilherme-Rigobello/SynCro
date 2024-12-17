@@ -1,6 +1,6 @@
 # **Syncro - Gerenciador de Projetos**
 
-O **Syncro** é uma aplicação web desenvolvida em React para gerenciar projetos e seus serviços associados. Ele permite criar, editar e excluir projetos, adicionar serviços, e controlar custos de forma prática e eficiente.
+**Syncro** é uma aplicação web desenvolvida em React para gerenciar projetos e seus serviços associados. Ele permite criar, editar e excluir projetos, adicionar serviços, e controlar custos de forma prática e eficiente.
 
 ![Syncro Preview](./src/img/home.png)
 
